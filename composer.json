@@ -1,0 +1,31 @@
+{
+  "name": "aliyun-openapi-php-sdk",
+  "type": "library",
+  "description": "aliyun-openapi-php-sdk",
+  "keywords": ["aliyun-openapi-php-sdk"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "jerry001001",
+      "email": "331889109@qq.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">5.3"
+  },
+  "autoload": {
+    "classmap": [
+      "/"
+    ],
+    "psr-0": {
+      "jerry001001\\aliyun-openapi-php-sdk\\": "/"
+    }
+  },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/jerry001001/aliyun-openapi-php-sdk.git"
+    }
+  ]
+}
